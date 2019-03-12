@@ -1,0 +1,77 @@
+   Real      User      System
+------------------------
+           STATIC
+------------------------
+Search:
+5.370000   0.000000   0.000000 
+
+Search:
+0.010000   0.000000   0.000000 
+
+Search:
+0.010000   0.000000   0.000000 
+
+Allocate: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Allocate: (100000000 block size)
+0.460000   0.220000   0.030000 
+
+Allocate: (200000000 block size)
+0.520000   0.430000   0.090000 
+
+Delete: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Delete: (100000000 block size)
+0.000000   0.000000   0.000000 
+
+Delete: (200000000 block size)
+0.000000   0.000000   0.000000 
+
+Allocate and delete 3 times 5 blocks of size 1000000
+0.080000   0.030000   0.000000 
+
+Allocate and delete 3 times 10 blocks of size 1000000
+0.160000   0.060000   0.010000 
+
+Allocate and delete 3 times 10 blocks of size 2000000
+0.310000   0.130000   0.010000 
+------------------------
+SHARED
+------------------------
+Search:
+1.770000   0.000000   0.010000 
+
+Search:
+0.010000   0.000000   0.000000 
+
+Search:
+0.010000   0.000000   0.000000 
+
+Allocate: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Allocate: (100000000 block size)
+0.500000   0.220000   0.040000 
+
+Allocate: (200000000 block size)
+0.540000   0.450000   0.060000 
+
+Delete: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Delete: (100000000 block size)
+0.010000   0.000000   0.000000 
+
+Delete: (200000000 block size)
+0.010000   0.000000   0.000000 
+
+Allocate and delete 3 times 5 blocks of size 1000000
+0.070000   0.030000   0.000000 
+
+Allocate and delete 3 times 10 blocks of size 1000000
+0.160000   0.060000   0.000000 
+
+Allocate and delete 3 times 10 blocks of size 2000000
+0.290000   0.130000   0.010000

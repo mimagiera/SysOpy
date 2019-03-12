@@ -1,0 +1,3 @@
+Wnioski:
+Zastosowanie flagi -O3 powoduje nieznacznie mniejsze czasy od flagi -O2.
+Zastosowanie pozostałych flag nie zmienia znacząco czasów w porównaniu do wartości domyślnej.

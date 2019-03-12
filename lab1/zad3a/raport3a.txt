@@ -1,0 +1,115 @@
+   Real      User      System
+------------------------
+           STATIC
+------------------------
+Search:
+1.670000   0.000000   0.010000 
+
+Search:
+0.010000   0.000000   0.000000 
+
+Search:
+0.000000   0.000000   0.000000 
+
+Allocate: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Allocate: (100000000 block size)
+0.520000   0.220000   0.030000 
+
+Allocate: (200000000 block size)
+0.650000   0.430000   0.080000 
+
+Delete: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Delete: (100000000 block size)
+0.010000   0.000000   0.000000 
+
+Delete: (200000000 block size)
+0.000000   0.000000   0.000000 
+
+Allocate and delete 3 times 5 blocks of size 1000000
+0.080000   0.030000   0.000000 
+
+Allocate and delete 3 times 10 blocks of size 1000000
+0.160000   0.060000   0.000000 
+
+Allocate and delete 3 times 10 blocks of size 2000000
+0.310000   0.130000   0.010000 
+------------------------
+           SHARED
+------------------------
+Search:
+1.690000   0.000000   0.010000 
+
+Search:
+0.010000   0.000000   0.000000 
+
+Search:
+0.000000   0.000000   0.000000 
+
+Allocate: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Allocate: (100000000 block size)
+0.520000   0.220000   0.030000 
+
+Allocate: (200000000 block size)
+0.530000   0.430000   0.070000 
+
+Delete: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Delete: (100000000 block size)
+0.010000   0.000000   0.000000 
+
+Delete: (200000000 block size)
+0.010000   0.000000   0.000000 
+
+Allocate and delete 3 times 5 blocks of size 1000000
+0.080000   0.030000   0.000000 
+
+Allocate and delete 3 times 10 blocks of size 1000000
+0.150000   0.060000   0.010000 
+
+Allocate and delete 3 times 10 blocks of size 2000000
+0.310000   0.130000   0.010000 
+------------------------
+           DYNAMIC
+------------------------
+Search:
+1.680000   0.000000   0.010000 
+
+Search:
+0.020000   0.000000   0.000000 
+
+Search:
+0.000000   0.000000   0.000000 
+
+Allocate: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Allocate: (100000000 block size)
+0.530000   0.210000   0.030000 
+
+Allocate: (200000000 block size)
+0.610000   0.440000   0.070000 
+
+Delete: (10000 block size)
+0.000000   0.000000   0.000000 
+
+Delete: (100000000 block size)
+0.000000   0.000000   0.000000 
+
+Delete: (200000000 block size)
+0.000000   0.000000   0.010000 
+
+Allocate and delete 3 times 5 blocks of size 1000000
+0.080000   0.030000   0.000000 
+
+Allocate and delete 3 times 10 blocks of size 1000000
+0.150000   0.060000   0.000000 
+
+Allocate and delete 3 times 10 blocks of size 2000000
+0.300000   0.130000   0.010000 
