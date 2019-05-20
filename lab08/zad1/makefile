@@ -11,4 +11,4 @@ clean:
 
 test:
 	./random_gen
-	./filter "8" "interleaved" "gator.ascii.pgm" "filter.txt" "filtered.pgm"
+	./filter "1" "interleaved" "gator.ascii.pgm" "filter.txt" "filtered.pgm"

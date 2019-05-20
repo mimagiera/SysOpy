@@ -4,11 +4,12 @@
 #include <math.h>
 #include <string.h>
 #include <sys/time.h>
-int number_of_threads, width, height, filter_size;
+int number_of_threads, width, height, filter_size, max_gray;
 int **file_to_filter;
 int **new_file;
 double **filter_matrix;
 char *filter_type;
+char magic_number_xd[10];
 
 void intervealed_filter(int thread_number);
 void block_filter(int x_from, int x_to);
@@ -106,8 +107,6 @@ void read_filter(char *filter_name)
 void read_from_file(char *file_name)
 {
     FILE* fp = fopen(file_name, "r");
-    int max_gray;
-    char magic_number_xd[10];
     fscanf(fp, "%s", magic_number_xd);
     fscanf(fp, "%d %d", &width, &height);
     fscanf(fp, "%d", &max_gray);
@@ -133,6 +132,9 @@ void read_from_file(char *file_name)
 void save_new_file(char *file_name)
 {
     FILE* fp = fopen(file_name, "w");
+    fprintf(fp, "%s\n", magic_number_xd);
+    fprintf(fp, "%d %d\n", width, height);
+    fprintf(fp, "%d\n", max_gray);
     for(int i =0;i<width;i++)
     {
         for(int j = 0 ;j<height;j++)
