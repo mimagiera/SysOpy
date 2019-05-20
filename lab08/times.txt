@@ -1,0 +1,169 @@
+///////////////
+    block
+    filter 40
+///////////////
+Number of threads: 1
+Type of filtering: block
+Filter size: 40
+Size of image: 633 621
+Thread: 0 time elapsed: 13403794
+Total time: 13404042
+
+Number of threads: 2
+Type of filtering: block
+Filter size: 40
+Size of image: 633 621
+Thread: 0 time elapsed: 13642832
+Thread: 1 time elapsed: 13679465
+Total time: 13679529
+
+Number of threads: 4
+Type of filtering: block
+Filter size: 40
+Size of image: 633 621
+Thread: 0 time elapsed: 13197913
+Thread: 1 time elapsed: 13234979
+Thread: 2 time elapsed: 13210648
+Thread: 3 time elapsed: 13230732
+Total time: 13238027
+
+Filter size: 40
+Size of image: 633 621
+Thread: 0 time elapsed: 15690218
+Thread: 1 time elapsed: 15765696
+Thread: 2 time elapsed: 15752282
+Thread: 3 time elapsed: 15763474
+Thread: 4 time elapsed: 15721896
+Thread: 5 time elapsed: 15765287
+Thread: 6 time elapsed: 15762767
+Thread: 7 time elapsed: 15722697
+Total time: 15779581
+
+///////////////
+    interleaved
+    filter 40
+///////////////
+Number of threads: 1
+Type of filtering: interleaved
+Filter size: 40
+Size of image: 633 621
+Thread: 0 time elapsed: 15543372
+Total time: 15543574
+
+Number of threads: 2
+Type of filtering: interleaved
+Filter size: 40
+Size of image: 633 621
+Thread: 0 time elapsed: 13251669
+Thread: 1 time elapsed: 13227481
+Total time: 13255893
+
+Number of threads: 4
+Type of filtering: interleaved
+Filter size: 40
+Size of image: 633 621
+Thread: 0 time elapsed: 16007734
+Thread: 1 time elapsed: 15941210
+Thread: 2 time elapsed: 15998412
+Thread: 3 time elapsed: 15989743
+Total time: 16018274
+
+Number of threads: 8
+Type of filtering: interleaved
+Filter size: 40
+Size of image: 633 621
+Thread: 0 time elapsed: 13308215
+Thread: 1 time elapsed: 13236719
+Thread: 2 time elapsed: 13299853
+Thread: 3 time elapsed: 13258020
+Thread: 4 time elapsed: 13265592
+Thread: 5 time elapsed: 13275248
+Thread: 6 time elapsed: 13326727
+Thread: 7 time elapsed: 13301456
+Total time: 13329112
+
+///////////////
+    block
+    filter 20
+///////////////
+Number of threads: 1
+Type of filtering: block
+Filter size: 20
+Size of image: 633 621
+Thread: 0 time elapsed: 3432943
+Total time: 3433141
+
+Number of threads: 2
+Type of filtering: block
+Filter size: 20
+Size of image: 633 621
+Thread: 0 time elapsed: 3544241
+Thread: 1 time elapsed: 3520895
+Total time: 3544905
+
+Number of threads: 4
+Type of filtering: block
+Filter size: 20
+Size of image: 633 621
+Thread: 0 time elapsed: 3347841
+Thread: 1 time elapsed: 3350911
+Thread: 2 time elapsed: 3350622
+Thread: 3 time elapsed: 3332265
+Total time: 3358391
+
+Number of threads: 8
+Type of filtering: block
+Filter size: 20
+Size of image: 633 621
+Thread: 0 time elapsed: 4748404
+Thread: 1 time elapsed: 4751147
+Thread: 2 time elapsed: 4756779
+Thread: 3 time elapsed: 4746397
+Thread: 4 time elapsed: 4749946
+Thread: 5 time elapsed: 4753724
+Thread: 6 time elapsed: 4768239
+Thread: 7 time elapsed: 4748219
+Total time: 4769459
+
+///////////////
+    interleaved
+    filter 20
+///////////////
+Number of threads: 1
+Type of filtering: interleaved
+Filter size: 20
+Size of image: 633 621
+Thread: 0 time elapsed: 4430831
+Total time: 4433178
+
+Number of threads: 2
+Type of filtering: interleaved
+Filter size: 20
+Size of image: 633 621
+Thread: 0 time elapsed: 5446263
+Thread: 1 time elapsed: 5442991
+Total time: 5448151
+
+Number of threads: 4
+Type of filtering: interleaved
+Filter size: 20
+Size of image: 633 621
+Thread: 0 time elapsed: 5073979
+Thread: 1 time elapsed: 5067017
+Thread: 2 time elapsed: 5076915
+Thread: 3 time elapsed: 5083175
+Total time: 5085051
+
+Number of threads: 8
+Type of filtering: interleaved
+Filter size: 20
+Size of image: 633 621
+Thread: 0 time elapsed: 3362321
+Thread: 1 time elapsed: 3350003
+Thread: 2 time elapsed: 3369708
+Thread: 3 time elapsed: 3350687
+Thread: 4 time elapsed: 3352530
+Thread: 5 time elapsed: 3356757
+Thread: 6 time elapsed: 3360434
+Thread: 7 time elapsed: 3380562
+Total time: 3382745
